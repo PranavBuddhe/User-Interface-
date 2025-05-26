@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <aside class="sidebar">
+    <h2 class="logo"><span>Health</span>care.</h2>
+    <div class="section">
+      <p class="section-title">General</p>
+      <ul>
+        <li class="active"><i class="fa-solid fa-grid-horizontal"></i> Dashboard</li>
+        <li><i class="icon fas fa-history"></i> History</li>
+        <li><i class="icon fas fa-calendar-alt"></i> Calendar</li>
+        <li><i class="icon fas fa-clipboard-list"></i> Appointments</li>
+        <li><i class="icon fas fa-chart-bar"></i> Statistics</li>
+      </ul>
+    </div>
+    <div class="section">
+      <p class="section-title">Tools</p>
+      <ul>
+        <li><i class="icon fas fa-comment"></i> Chat</li>
+        <li><i class="icon fas fa-phone"></i> Support</li>
+      </ul>
+    </div>
+    <div class="setting">
+      <i class="icon fas fa-cog"></i> Setting
+    </div>
+  </aside>
+
+   <div class="dashboard">
+    <header>
+      <input type="text" placeholder="Search" class="search">
+      <div class="user-icon">🔔</div>
+    </header>
+
+    <section class="main">
+      <h2>Dashboard <span class="week">This Week ▼</span></h2>
+
+      <div class="body-section">
+        <div class="body-image">
+          <img src="bodyimage.avif" alt="Body Model">
+          <div class="label heart">❤️ Healthy Heart</div>
+          <div class="label leg">➤ Healthy Leg</div>
+        </div>
+
+        <div class="organs">
+          <div class="organ-box lungs">
+            <p class="title">Lungs</p>
+            <p class="date">Date: 26 Okt 2021</p>
+            <div class="bar red"></div>
+          </div>
+          <div class="organ-box teeth">
+            <p class="title">Teeth</p>
+            <p class="date">Date: 26 Okt 2021</p>
+            <div class="bar green"></div>
+          </div>
+          <div class="organ-box bone">
+            <p class="title">Bone</p>
+            <p class="date">Date: 26 Okt 2021</p>
+            <div class="bar red"></div>
+          </div>
+          <a class="details-link" href="#">Details →</a>
+        </div>
+      </div>
+
+      <div class="activity">
+        <h3>Activity <span>3 appointment on this week</span></h3>
+        <div class="chart">
+          <!-- Placeholder bars -->
+          <div class="bar-column"><div class="bar short"></div></div>
+          <div class="bar-column"><div class="bar tall"></div></div>
+          <div class="bar-column"><div class="bar medium"></div></div>
+          <div class="bar-column"><div class="bar tall"></div></div>
+          <div class="bar-column"><div class="bar medium"></div></div>
+          <div class="bar-column"><div class="bar short"></div></div>
+          <div class="bar-column"><div class="bar tall"></div></div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <main class="main-content">
+    <div class="calendar-container">
+      <div class="calendar-header">
+        <h3>October 2021</h3>
+        <div class="nav-arrows">‹ ›</div>
+      </div>
+
+      <div class="days">
+        <div><span>Mon</span><br>25</div>
+        <div><span>Tues</span><br><strong class="active-date">26</strong></div>
+        <div><span>Wed</span><br>27</div>
+        <div><span>Thurs</span><br>28</div>
+        <div><span>Fri</span><br>29</div>
+        <div><span>Sat</span><br>30</div>
+        <div><span>Sun</span><br>31</div>
+      </div>
+
+      <div class="time-slots">
+        <div>08:00</div>
+        <div class="selected-time">09:00</div>
+        <div>10:00</div>
+        <div class="selected-time">11:00</div>
+        <div>12:00</div>
+        <div>13:00</div>
+        <div>14:00</div>
+        <div>15:00</div>
+        <div class="selected-time">16:00</div>
+      </div>
+
+       <div class="appointment-cards">
+      <div class="card dentist">
+        🦷 <strong>Dentist</strong><br/>
+        09:00–11:00<br/>
+        Dr. Cameron Williamson
+      </div>
+
+        <div class="card physio">
+          💪 <strong>Physiotherapy</strong><br>
+          11:00–12:00<br>
+          Dr. Kevin Djones
+        </div>
+      </div>
+
+      <div class="upcoming-schedule">
+        <h4>The Upcoming Schedule</h4>
+        <div class="day">
+          <p>On Thursday</p>
+          <div class="event">🩺 Health checkup<br><span>11:00 AM</span></div>
+          <div class="event">👁 Ophthalmologist<br><span>14:00 PM</span></div>
+        </div>
+
+        <div class="day">
+          <p>On Saturday</p>
+          <div class="event">❤️ Cardiologist<br><span>12:00 AM</span></div>
+          <div class="event">🧠 Neurologist<br><span>16:00 PM</span></div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
